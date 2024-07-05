@@ -10,10 +10,6 @@ description: >-
   Linking Treatment Tables and an Introduction to the NDRS Rapid Registration
   Dataset. Chat with the NCRAS Data Resource Profile and CAS SOP 4.8, powered by
   LlamaIndex.
-media:
-  type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project image
 bottomSections: []
 featuredImage:
   type: ImageBlock
