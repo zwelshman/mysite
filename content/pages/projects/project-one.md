@@ -9,14 +9,7 @@ description: >-
   website. No installation required.Add a live, fully-featured Jupyter notebook
   or Jupyter Lab to your site with a single line of HTMLUsers can run Python
   code, create visualizations, and explore data science concepts right in their
-  browserPowered by JupyterLite, which runs the Jupyter stack entirely in the
-  browser using WebAssemblyHighly customizable - easily configure kernels,
-  extensions, and UI to fit your siteSeamlessly scales to handle any traffic
-  load as a static sitePerfect for documentation, tutorials, educational
-  content, and interactive demosJupyter Everywhere makes it trivial to enrich
-  any web page with the power of Jupyter notebooks. Engage your audience with
-  interactive Python environments that bring your content to life. Works
-  everywhere, installs nowhere. That's Jupyter Everywhere.
+  browserPowered by JupyterLite.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
