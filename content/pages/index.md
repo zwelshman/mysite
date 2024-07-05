@@ -64,8 +64,9 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: |+
-      <embed src="https://cancermetadataassistant-production.up.railway.app" >
+    text: >+
+      <embed src="https://cancermetadataassistant-production.up.railway.app"
+      width = 500 height = 500>
 
     elementId: ''
     styles:
