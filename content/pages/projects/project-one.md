@@ -5,9 +5,18 @@ colors: colors-a
 date: '2021-10-15'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  Jupyter Everywhere: Instantly embed interactive Python notebooks on any
+  website. No installation required.Add a live, fully-featured Jupyter notebook
+  or Jupyter Lab to your site with a single line of HTMLUsers can run Python
+  code, create visualizations, and explore data science concepts right in their
+  browserPowered by JupyterLite, which runs the Jupyter stack entirely in the
+  browser using WebAssemblyHighly customizable - easily configure kernels,
+  extensions, and UI to fit your siteSeamlessly scales to handle any traffic
+  load as a static sitePerfect for documentation, tutorials, educational
+  content, and interactive demosJupyter Everywhere makes it trivial to enrich
+  any web page with the power of Jupyter notebooks. Engage your audience with
+  interactive Python environments that bring your content to life. Works
+  everywhere, installs nowhere. That's Jupyter Everywhere.
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
