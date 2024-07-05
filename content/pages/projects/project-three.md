@@ -8,8 +8,8 @@ description: >-
   This Assistant currently makes use of three data sources. The Data Resource
   Profile: National Cancer Registration Dataset in England, the CAS SOP #4.8
   Linking Treatment Tables and an Introduction to the NDRS Rapid Registration
-  Dataset.Chat with the NCRAS Data Resource Profile and CAS SOP 4.8, powered by
-  LlamaIndex 
+  Dataset. Chat with the NCRAS Data Resource Profile and CAS SOP 4.8, powered by
+  LlamaIndex.
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
