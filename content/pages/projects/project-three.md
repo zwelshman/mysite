@@ -5,9 +5,10 @@ colors: colors-a
 date: '2022-01-22'
 client: Myself
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  This Assistant currently makes use of three data sources. The Data Resource
+  Profile: National Cancer Registration Dataset in England, the CAS SOP #4.8
+  Linking Treatment Tables and an Introduction to the NDRS Rapid Registration
+  Dataset.
 featuredImage:
   type: ImageBlock
   url: /images/bg3.jpg
