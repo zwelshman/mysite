@@ -14,9 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: "Hey there! \U0001F44B I'm Zach a data scientist and biomedical engineer."
-    subtitle: >-
-      My goals are to to apply data science and engineering to healthcare
-      technology.
+    subtitle: ''
     styles:
       self:
         height: auto
