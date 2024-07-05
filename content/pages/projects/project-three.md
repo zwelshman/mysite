@@ -23,7 +23,7 @@ bottomSections:
     variant: variant-b
     title: The Section Title
     subtitle: The section subtitle
-    text: "< embed src=\"https\\://cancermetadataassistant-production.up.railway.app\"\_width = \"700\" height = \"700\" >\n"
+    text: "\\<embed src=\"<https://cancermetadataassistant-production.up.railway.app\"\_width> = \"700\" height = \"700\">\n"
     elementId: ''
     styles:
       self:
