@@ -62,7 +62,7 @@ sections:
         borderWidth: 1
   - type: TextSection
     colors: colors-f
-    variant: variant-b
+    variant: variant-a
     title: The Section Title
     text: >+
       <embed src="https://cancermetadataassistant-production.up.railway.app"
