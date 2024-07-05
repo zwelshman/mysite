@@ -10,15 +10,19 @@ description: >-
   Linking Treatment Tables and an Introduction to the NDRS Rapid Registration
   Dataset. Chat with the NCRAS Data Resource Profile and CAS SOP 4.8, powered by
   LlamaIndex.
+bottomSections: []
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project thumbnail image
+  url: /images/rag.png
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project image
-bottomSections: []
+  url: /images/rag.png
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
 Example Questions: What is the difference between the Rapid Cancer Registration Dataset and the Gold Standard National Cancer Registration dataset? Can you Generate SQL code to find tumours that have been treated with chemotherapy? What proportion of people have had cancer and have been treated with chemotherapy in 6, 12 and 18 months.
 
