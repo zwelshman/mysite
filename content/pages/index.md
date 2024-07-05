@@ -104,7 +104,7 @@ sections:
     title: The Section Title
     text: |+
       ```python
-      Import pandas as pd
+      import pandas as pd
       ```
 
     elementId: ''
