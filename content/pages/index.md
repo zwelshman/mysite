@@ -102,10 +102,11 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: |
+    text: |+
       ```python
       Import pandas as pd
       ```
+
     elementId: ''
     styles:
       self:
