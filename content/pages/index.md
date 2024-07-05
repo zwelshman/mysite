@@ -65,9 +65,9 @@ sections:
     variant: variant-b
     title: The Section Title
     text: |
-      ```python
+      ```py3
 
-      var = 1
+      import pandas as pd
 
       ```
     elementId: ''
