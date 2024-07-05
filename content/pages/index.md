@@ -103,20 +103,15 @@ sections:
     variant: variant-b
     title: The Section Title
     text: |+
-      ````
-      ```yaml
+      ````yaml
       ---
       - name: Getting started
       hosts: iosxe
       gather_facts: no
-      ````
-
-      ````
       tasks:
       - name: GATHERING FACTS
       ios_facts:
       gather_subset: hardware
-      ```
       ````
 
     elementId: ''
