@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: "Hey there! \U0001F44B I'm Zach a data scientist and biomedical engineer on a mission to apply data science and engineering approaches to improve the health and outcomes for people and patients."
+    title: "Hey there! \U0001F44B I'm Zach a data scientist and biomedical engineer on a mission to apply data science and engineering to healthcare technology."
     subtitle: ''
     styles:
       self:
