@@ -17,8 +17,8 @@ media:
   url: /images/bg1.jpg
   altText: Project image
 ---
-<iframe
+<embed
   src="https://jupyterlite.github.io/demo/repl/index.html"
   width="100%"
-  height="100%"
-></iframe>
+  height="100%">
+
