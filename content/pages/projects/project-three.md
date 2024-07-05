@@ -19,7 +19,7 @@ featuredImage:
   elementId: ''
 media:
   type: ImageBlock
-  url: /images/rag.jpg
+  url: /images/bg3.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
