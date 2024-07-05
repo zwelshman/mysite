@@ -102,10 +102,18 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: |-
-      '''python
-      var = 1
-      '''
+    text: |
+      \`\`\`yaml
+      \---
+      \- name: Getting started
+        hosts: iosxe
+        gather\_facts: no
+
+        tasks:
+        \- name: GATHERING FACTS
+      ios\_facts:
+        gather\_subset: hardware
+      \`\`\`
     elementId: ''
     styles:
       self:
