@@ -103,9 +103,7 @@ sections:
     variant: variant-b
     title: The Section Title
     text: |+
-      ```
-      <embed src="
-      ```
+      \<embed src="https\://cancermetadataassistant-production.up.railway.app" >
 
     elementId: ''
     styles:
