@@ -102,9 +102,7 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: >
-      <embed src="https://cancermetadataassistant-production.up.railway.app/"
-      type="text/html" width=500/> 
+    text: "<embed src=\"https://cancermetadataassistant-production.up.railway.app/\" type=\"text/html\" width=\"300\"\_height=\"200\"/> \n\n"
     elementId: ''
     styles:
       self:
