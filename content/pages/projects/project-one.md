@@ -19,5 +19,5 @@ media:
 ---
 <embed
 src="https://jupyterlite.github.io/demo/repl/index.html"
-width=700
-height="500">
+width=1000
+height="655" align="centre">
