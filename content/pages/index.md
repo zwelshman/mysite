@@ -66,7 +66,7 @@ sections:
     title: The Section Title
     text: >+
       <embed src="https://cancermetadataassistant-production.up.railway.app"
-      width = 500 height = 500>
+      width = 500px height = 500px>
 
     elementId: ''
     styles:
