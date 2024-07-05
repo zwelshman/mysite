@@ -64,12 +64,10 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: |
-      ```py3
-
+    text: |+
+      py3
       import pandas as pd
 
-      ```
     elementId: ''
     styles:
       self:
