@@ -123,6 +123,7 @@ sections:
         textAlign: left
       text:
         textAlign: left
+    subtitle: Embed
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
