@@ -13,7 +13,7 @@ description: >-
 bottomSections: []
 featuredImage:
   type: ImageBlock
-  url: /images/rag.png
+  url: /images/rag.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
