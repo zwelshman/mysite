@@ -21,10 +21,6 @@ featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
   altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project image
 ---
 <embed
 src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1"
