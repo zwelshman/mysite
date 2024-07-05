@@ -18,7 +18,6 @@ media:
   altText: Project image
 ---
 <embed
-  src="https://jupyterlite.github.io/demo/repl/index.html"
-  width="100%"
-  height="100%">
-
+src="https://jupyterlite.github.io/demo/repl/index.html"
+width=700
+height="500">
