@@ -23,5 +23,4 @@ Example Questions: What is the difference between the Rapid Cancer Registration 
 
 <https://cancermetadataassistant-production.up.railway.app/>
 
-\<embed src="https\://cancermetadataassistant-production.up.railway.app/" type="text/html" />
-
+\<embed src="<https://cancermetadataassistant-production.up.railway.app/>">
