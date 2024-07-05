@@ -102,11 +102,10 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: |+
-      ```
-      <embed src="
-      ```
-
+    text: >
+      \<embed
+      type="video/quicktime"src="movie.mov"width="640"height="480"title="Title
+      of my video" />
     elementId: ''
     styles:
       self:
