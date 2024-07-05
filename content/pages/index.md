@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: "Hey there! \U0001F44B I'm Zach a data scientist and biomedical engineer on a mission to apply data science and engineering approaches to improve the health and outcomes for people and patients."
-    subtitle: "What's in Store? \U0001F9D0Ideas area : A space on the interne for me to write about ideas and observations in the health data science and engineering arena. Learning Lab \U0001F9EA: Peek behind the curtain of my continuous learning process. I'll share tutorials, tips, and tricks that have helped me level up my data science and engineering skills. \U0001F4DA\U0001F52CCareer Highlights \U0001F4BC: Dive into the twists and turns of my professional journey, where I've battled big data monsters \U0001F409 and engineered solutions in medical device companies. \U0001F3C6Project Showcase \U0001F3AD: Sharing my most impactful projects. From predictive models to stunning visualizations, I'll show you how I turn raw numbers into actionable insights. \U0001F4CA✨Whether you're a fellow data or engineering wizard \U0001F9D9‍♂️, a curious recruiter \U0001F575️‍♀️, or just someone fascinated by the power of data. Feel free to explore, ask questions, or reach out if you want to collaborate on the next big data adventure. \U0001F91D Get in touch."
+    subtitle: ''
     styles:
       self:
         height: auto
