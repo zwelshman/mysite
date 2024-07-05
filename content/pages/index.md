@@ -15,7 +15,7 @@ sections:
     backgroundSize: full
     title: "Hey there! \U0001F44B I'm Zach a data scientist and biomedical engineer."
     subtitle: >-
-      on a mission to apply data science and engineering to healthcare
+      My goals are to to apply data science and engineering to healthcare
       technology.
     styles:
       self:
