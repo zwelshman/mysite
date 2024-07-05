@@ -102,19 +102,7 @@ sections:
     colors: colors-f
     variant: variant-b
     title: The Section Title
-    text: |+
-      ```python
-      import pandas as pd
-      ```
-
-
-
-
-
-      ```
-      <embed src="http://www.example.com" style="width:500px; height: 300px;">
-      ```
-
+    text: "\\<embed src=\"<http://www.example.com\"\_style=\"width:500px>; height: 300px;\">\n"
     elementId: ''
     styles:
       self:
