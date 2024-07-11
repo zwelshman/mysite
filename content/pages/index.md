@@ -91,7 +91,8 @@ sections:
       - type: Link
         label: See all posts
         url: /blog
-    posts: []
+    posts:
+      - content/pages/blog/python-tutorial-list-comprehension.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
