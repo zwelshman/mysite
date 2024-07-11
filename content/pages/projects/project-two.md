@@ -7,7 +7,7 @@ client: Myself
 description: ''
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/img-V3mU6W3az3CjMyi47Pw7ZIJF.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
