@@ -36,7 +36,7 @@ List comprehensions provide a concise way to create lists in Python. They are a 
 [expression for item in iterable if condition]
 ```
 
-*   **expression**: This is the value or operation that is applied to each item.
+*   **expression**: This åis the value or operation that is applied to each item.
 
 *   **item**: This represents the individual elements from the iterable.
 
