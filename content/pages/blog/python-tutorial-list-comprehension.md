@@ -2,7 +2,11 @@
 type: PostLayout
 title: 'Python Series: List Comprehension'
 date: '2024-07-11'
-excerpt: Introduction to List Comprehensions
+excerpt: >-
+  List comprehensions provide a concise way to create lists in Python. They are
+  a syntactic construct that allows for the generation of a new list by applying
+  an expression to each item in an existing iterable (like a list, tuple, or
+  range). 
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
