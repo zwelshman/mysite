@@ -46,13 +46,13 @@ List comprehensions provide a concise way to create lists in Python. They are a 
 
 For example, to create a list of squares of numbers from 0 to 9, you can use:
 
-```
+```python
 squares = [x**2 for x in range(10)]
 ```
 
 This will produce:
 
-```
+```python
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
@@ -62,7 +62,7 @@ List comprehensions can often replace traditional for-loops for creating lists, 
 
 **Using a Traditional For-Loop:**
 
-```
+```python
 squares = []
 for x in range(10):
     squares.append(x**2)
@@ -70,7 +70,7 @@ for x in range(10):
 
 **Using a List Comprehension:**
 
-```
+```python
 squares = [x**2 for x in range(10)]
 ```
 
@@ -82,7 +82,7 @@ You can also include conditions in list comprehensions to filter items. For exam
 
 **Using a Traditional For-Loop:**
 
-```
+```python
 even_squares = []
 for x in range(10):
     if x % 2 == 0:
@@ -91,7 +91,7 @@ for x in range(10):
 
 **Using a List Comprehension:**
 
-```
+```python
 even_squares = [x**2 for x in range(10) if x % 2 == 0]
 ```
 
