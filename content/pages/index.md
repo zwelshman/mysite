@@ -92,9 +92,7 @@ sections:
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+      - content/pages/blog/python-tutorial-list-comprehension.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
