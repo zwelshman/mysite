@@ -11,7 +11,7 @@ featuredImage:
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/img-V3mU6W3az3CjMyi47Pw7ZIJF.png
   altText: Project image
 ---
 <embed src="https://social-media-assistant-production.up.railway.app" width="700" height="700" align="centre">
