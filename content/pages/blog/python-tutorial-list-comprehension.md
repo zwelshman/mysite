@@ -2,9 +2,7 @@
 type: PostLayout
 title: 'Python Series: List Comprehension'
 date: '2024-07-11'
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+excerpt: Introduction to List Comprehensions
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
