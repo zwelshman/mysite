@@ -29,79 +29,172 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 100
 ---
-### What are List Comprehensions?
+### Tutorial: List Comprehensions with Healthcare Data
 
-#### Definition and Basic Syntax
+#### 1. Introduction to List Comprehensions
 
-List comprehensions provide a concise way to create lists in Python. They are a syntactic construct that allows for the generation of a new list by applying an expression to each item in an existing iterable (like a list, tuple, or range). The basic syntax of a list comprehension is:
+List comprehensions provide a compact way to generate lists. The syntax is:
 
 ```python
 [expression for item in iterable if condition]
 ```
 
-*   **expression**: This åis the value or operation that is applied to each item.
 
-*   **item**: This represents the individual elements from the iterable.
 
-*   **iterable**: This is the collection of items you are iterating over.
+*   `expression` is the member itself, a call to a method, or any other valid expression that returns a value.
 
-*   **condition**: This is an optional part that filters items from the iterable.
+*   `item` is the object or value in the list or iterable.
 
-For example, to create a list of squares of numbers from 0 to 9, you can use:
+*   `iterable` is a collection of objects (e.g., list, tuple, set).
 
-```python
-squares = [x**2 for x in range(10)]
-```
+*   `condition` is an optional filter that only includes items for which the condition is true.
 
-This will produce:
+#### 2. Basic Example
+
+Let's start with a simple example. Suppose we have a list of patient ages and we want to create a new list with ages incremented by one year.
 
 ```python
-[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+ages = [25, 30, 35, 40, 45]
+incremented_ages = [age + 1 for age in ages]
+print(incremented_ages)
 ```
 
-#### Comparison with Traditional For-Loops
 
-List comprehensions can often replace traditional for-loops for creating lists, making the code more readable and concise. Here is a comparison between the two approaches:
 
-**Using a Traditional For-Loop:**
+Output:
 
 ```python
-squares = []
-for x in range(10):
-    squares.append(x**2)
+[26, 31, 36, 41, 46]
 ```
 
-**Using a List Comprehension:**
+
+
+#### 3. Filtering Data
+
+Now, let's filter out patients who are younger than 30 years old.
 
 ```python
-squares = [x**2 for x in range(10)]
+ages = [25, 30, 35, 40, 45]
+filtered_ages = [age for age in ages if age >= 30]
+print(filtered_ages)
 ```
 
-Both snippets of code produce the same result, but the list comprehension is more compact and easier to read.
 
-**Filtering with Conditions:**
 
-You can also include conditions in list comprehensions to filter items. For example, to create a list of squares of even numbers from 0 to 9:
-
-**Using a Traditional For-Loop:**
+Output:
 
 ```python
-even_squares = []
-for x in range(10):
-    if x % 2 == 0:
-        even_squares.append(x**2)
+[30, 35, 40, 45]
 ```
 
-**Using a List Comprehension:**
+
+
+#### 4. Nested List Comprehensions
+
+Suppose we have a list of lists where each sublist contains patient data: `[age, height, weight]`. We want to extract only the ages.
 
 ```python
-even_squares = [x**2 for x in range(10) if x % 2 == 0]
+patients = [
+    [25, 175, 70],
+    [30, 180, 80],
+    [35, 165, 60],
+    [40, 170, 75]
+]
+ages = [patient[0] for patient in patients]
+print(ages)
 ```
 
-Again, the list comprehension is more concise and easier to understand at a glance.
 
-**Performance Considerations:**
 
-List comprehensions are generally faster than traditional for-loops because they are optimized for the task of list creation. However, for very large datasets or complex operations, the performance difference may be negligible, and readability should be the primary concern.
+Output:
 
-In summary, list comprehensions provide a powerful and readable way to generate lists in Python, often replacing the need for more verbose and less readable traditional for-loops.
+```python
+[25, 30, 35, 40]
+```
+
+
+
+#### 5. Complex Expressions
+
+Let's say we want to calculate the Body Mass Index (BMI) for each patient and store it in a new list. The formula for BMI is `weight / (height/100)^2`.
+
+```python
+patients = [
+    [25, 175, 70],
+    [30, 180, 80],
+    [35, 165, 60],
+    [40, 170, 75]
+]
+bmis = [(weight / (height/100)**2) for age, height, weight in patients]
+print(bmis)
+```
+
+
+
+Output:
+
+```python
+[22.857142857142858, 24.691358024691358, 22.03856749311295, 25.95155709342561]
+```
+
+
+
+#### 6. Combining Multiple Conditions
+
+Suppose we want to filter patients who are older than 30 and have a BMI greater than 24.
+
+```python
+patients = [
+    [25, 175, 70],
+    [30, 180, 80],
+    [35, 165, 60],
+    [40, 170, 75]
+]
+filtered_patients = [
+    patient for patient in patients 
+    if patient[0] > 30 and (patient[2] / (patient[1]/100)**2) > 24
+]
+print(filtered_patients)
+```
+
+
+
+Output:
+
+```python
+[[40, 170, 75]]
+```
+
+
+
+#### 7. Using Functions in List Comprehensions
+
+We can also use functions within list comprehensions. Let's define a function to calculate BMI and use it in our list comprehension.
+
+```python
+def calculate_bmi(height, weight):
+    return weight / (height/100)**2
+patients = [
+    [25, 175, 70],
+    [30, 180, 80],
+    [35, 165, 60],
+    [40, 170, 75]
+]
+bmis = [calculate_bmi(height, weight) for age, height, weight in patients]
+print(bmis)
+```
+
+
+
+Output:
+
+```python
+[22.857142857142858, 24.691358024691358, 22.03856749311295, 25.95155709342561]
+```
+
+
+
+### Conclusion
+
+List comprehensions are a powerful tool for data manipulation and can make your code more readable and concise. In healthcare data analysis, they can be used to filter data, apply transformations, and compute derived metrics like BMI efficiently. By mastering list comprehensions, you can streamline your data processing tasks and focus on deriving insights from the data.
+
