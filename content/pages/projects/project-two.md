@@ -13,6 +13,10 @@ media:
   type: ImageBlock
   url: /images/img-V3mU6W3az3CjMyi47Pw7ZIJF.png
   altText: Project image
+metaDescription: >-
+  Boost your social media strategy with Social Media Assistant. Streamline
+  content creation, scheduling, and analytics across platforms. Save time,
+  increase engagement, and grow your online presence effortlessly. Try it today!
 ---
 <embed src="https://social-media-assistant-production.up.railway.app" width="700" height="700" align="centre">
 
