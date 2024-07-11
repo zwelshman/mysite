@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Generative AI for Social Media Content
 colors: colors-a
-date: '2021-12-20'
+date: '2024-07-11'
 client: Myself
 description: >-
   An app that generates content for Social Media Platforms such as LinkedIn, X,
