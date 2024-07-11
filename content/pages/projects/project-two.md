@@ -17,6 +17,10 @@ metaDescription: >-
   Boost your social media strategy with Social Media Assistant. Streamline
   content creation, scheduling, and analytics across platforms. Save time,
   increase engagement, and grow your online presence effortlessly. Try it today!
+metaTags:
+  - type: MetaTag
+    property: 'og:title'
+    content: ''
 ---
 <embed src="https://social-media-assistant-production.up.railway.app" width="700" height="700" align="centre">
 
