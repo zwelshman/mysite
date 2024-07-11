@@ -77,7 +77,7 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "",
-            "phoneNumber": "Zach Welshman, Ph.D.",
+            "phoneNumber": "",
             "phoneAltText": "My phone number",
             "email": "https://www.linkedin.com/in/zachwelshman/",
             "emailAltText": "My email",
