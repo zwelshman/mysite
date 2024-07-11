@@ -19,7 +19,7 @@ featuredImage:
   elementId: ''
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/Screenshot 2024-04-30 at 14.35.32.png
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
