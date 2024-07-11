@@ -3,9 +3,7 @@ type: ProjectLayout
 title: Python Tutorials
 date: '2024-07-11'
 client: Awesome client
-description: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+description: List Comprehesions
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
