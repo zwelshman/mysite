@@ -32,11 +32,9 @@ backgroundImage:
 
 List comprehensions provide a concise way to create lists in Python. They are a syntactic construct that allows for the generation of a new list by applying an expression to each item in an existing iterable (like a list, tuple, or range). The basic syntax of a list comprehension is:
 
-```
+```python
 [expression for item in iterable if condition]
 ```
-
-
 
 *   **expression**: This is the value or operation that is applied to each item.
 
@@ -52,15 +50,11 @@ For example, to create a list of squares of numbers from 0 to 9, you can use:
 squares = [x**2 for x in range(10)]
 ```
 
-
-
 This will produce:
 
 ```
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
-
-
 
 #### Comparison with Traditional For-Loops
 
@@ -74,15 +68,11 @@ for x in range(10):
     squares.append(x**2)
 ```
 
-
-
 **Using a List Comprehension:**
 
 ```
 squares = [x**2 for x in range(10)]
 ```
-
-
 
 Both snippets of code produce the same result, but the list comprehension is more compact and easier to read.
 
@@ -99,15 +89,11 @@ for x in range(10):
         even_squares.append(x**2)
 ```
 
-
-
 **Using a List Comprehension:**
 
 ```
 even_squares = [x**2 for x in range(10) if x % 2 == 0]
 ```
-
-
 
 Again, the list comprehension is more concise and easier to understand at a glance.
 
@@ -116,7 +102,3 @@ Again, the list comprehension is more concise and easier to understand at a glan
 List comprehensions are generally faster than traditional for-loops because they are optimized for the task of list creation. However, for very large datasets or complex operations, the performance difference may be negligible, and readability should be the primary concern.
 
 In summary, list comprehensions provide a powerful and readable way to generate lists in Python, often replacing the need for more verbose and less readable traditional for-loops.
-
-
-
-
