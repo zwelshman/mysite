@@ -28,6 +28,7 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 100
+metaDescription: ' Learn how to use list comprehensions to efficiently manipulate healthcare data, including filtering, transforming, and computing derived metrics like BMI.'
 ---
 ### Tutorial: List Comprehensions with Healthcare Data
 
