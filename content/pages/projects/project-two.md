@@ -14,3 +14,4 @@ media:
   url: /images/bg2.jpg
   altText: Project image
 ---
+\<embed src="<https://social-media-assistant-production.up.railway.app>" width="700" height="700" align="centre">
