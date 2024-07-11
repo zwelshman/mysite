@@ -4,7 +4,9 @@ title: Generative AI for Social Media Posts
 colors: colors-a
 date: '2021-12-20'
 client: Myself
-description: ''
+description: >-
+  An app that generates content for Social Media Platforms such as LinkedIn, X,
+  Facebook and Blogs posts.
 featuredImage:
   type: ImageBlock
   url: /images/img-V3mU6W3az3CjMyi47Pw7ZIJF.png
