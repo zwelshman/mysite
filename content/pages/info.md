@@ -60,10 +60,6 @@ sections:
         url: /images/logo1.svg
         altText: Logo one
         caption: Logo one
-      - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
     spacing: 3
     columns: 5
     aspectRatio: auto
