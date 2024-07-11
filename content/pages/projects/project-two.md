@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Generative AI for Social Media Posts
+title: Generative AI for Social Media Content
 colors: colors-a
 date: '2021-12-20'
 client: Myself
